@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Kevin Stello</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <span style="color: #6c63ff;">&lt;/&gt;</span> Kevin Stello
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Project.html">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header py-5">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold text-white mb-3">My <span style="color: #6c63ff;">Gallery</span></h1>
+            <p class="lead text-white-50">Kumpulan momen dan karya terbaik saya</p>
+            <hr class="mx-auto" style="width: 100px; border: 2px solid #6c63ff; opacity: 1;">
+        </div>
+    </section>
+
+    <section class="filter-section py-4">
+        <div class="container">
+            <div class="d-flex justify-content-center flex-wrap gap-2">
+                <button class="btn btn-filter active" data-filter="all">Semua</button>
+                <button class="btn btn-filter" data-filter="web">Web Design</button>
+                <button class="btn btn-filter" data-filter="project">Project</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section py-4">
+        <div class="container">
+            <div class="row g-4" id="galleryContainer">
+                
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="web">
+                    <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="openGalleryModal(0)">
+                        <img src="https://i.ibb.co.com/s916VwHw/Screenshot-2026-04-30-045254.png" 
+                             alt="Web Design 1" 
+                             class="gallery-img img-fluid">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <i class="bi bi-zoom-in"></i>
+                                <h5>Website E-Commerce</h5>
+                                <p>Web Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="project">
+                    <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="openGalleryModal(1)">
+                        <img src="https://i.ibb.co.com/zH0gxWnB/Screenshot-2026-04-30-042612.png" 
+                             alt="Project 1" 
+                             class="gallery-img img-fluid">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <i class="bi bi-zoom-in"></i>
+                                <h5>Aplikasi Mobile</h5>
+                                <p>Project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="web">
+                    <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="openGalleryModal(3)">
+                        <img src="https://i.ibb.co.com/s916VwHw/Screenshot-2026-04-30-045254.png" 
+                             alt="Web Design 2" 
+                             class="gallery-img img-fluid">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <i class="bi bi-zoom-in"></i>
+                                <h5>Company Profile</h5>
+                                <p>Web Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="project">
+                    <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="openGalleryModal(5)">
+                        <img src="https://i.ibb.co.com/zH0gxWnB/Screenshot-2026-04-30-042612.png" 
+                             alt="Project 2" 
+                             class="gallery-img img-fluid">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <i class="bi bi-zoom-in"></i>
+                                <h5>Dashboard Admin</h5>
+                                <p>Project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="web">
+                    <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="openGalleryModal(8)">
+                        <img src="https://i.ibb.co.com/s916VwHw/Screenshot-2026-04-30-045254.png" 
+                             alt="Web Design 3" 
+                             class="gallery-img img-fluid">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <i class="bi bi-zoom-in"></i>
+                                <h5>Landing Page</h5>
+                                <p>Web Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div id="noResults" class="text-center py-5 d-none">
+                <i class="bi bi-folder2-open" style="font-size: 4rem; color: #6c63ff;"></i>
+                <h3 class="text-white mt-3">Tidak Ada Gambar</h3>
+                <p class="text-white-50">Tidak ada gambar dalam kategori ini.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <div class="modal fade" id="galleryModal" tabindex="-1">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content bg-dark">
+                <div class="modal-header border-secondary">
+                    <h5 class="modal-title text-white" id="modalTitle">Judul Gambar</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center p-4">
+                    <img src="" alt="" id="modalImage" class="modal-gallery-img img-fluid">
+                </div>
+                <div class="modal-footer border-secondary">
+                    <small class="text-white-50 me-auto" id="modalCounter">1 / 9</small>
+                    <button class="btn btn-outline-light" onclick="prevImage()">
+                        <i class="bi bi-chevron-left"></i> Sebelumnya
+                    </button>
+                    <button class="btn btn-outline-light" onclick="nextImage()">
+                        Selanjutnya <i class="bi bi-chevron-right"></i>
+                    </button>
+                    <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Kevin Stello. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="../script.js"></script>
+    
+    <script>
+        const galleryData = [
+            {
+                src: 'https://i.ibb.co.com/s916VwHw/Screenshot-2026-04-30-045254.png',
+                category: 'Web Design',
+            },
+            {
+                src: 'https://i.ibb.co.com/s916VwHw/Screenshot-2026-04-30-045254.png',
+                category: 'Project',
+            },
+            {
+                src: 'https://i.ibb.co.com/zH0gxWnB/Screenshot-2026-04-30-042612.png',
+                category: 'Web Design',
+            },
+            {
+                src: 'https://i.ibb.co.com/s916VwHw/Screenshot-2026-04-30-045254.png',
+                category: 'Project',
+            },
+            {
+                src: 'https://i.ibb.co.com/zH0gxWnB/Screenshot-2026-04-30-042612.png',
+                category: 'project',
+            }
+        ];
+        
+        let currentImageIndex = 0;
+        
+        function openGalleryModal(index) {
+            currentImageIndex = index;
+            updateModalContent();
+        }
+        
+        function updateModalContent() {
+            const data = galleryData[currentImageIndex];
+            document.getElementById('modalImage').src = data.src;
+            document.getElementById('modalImage').alt = data.title;
+            document.getElementById('modalTitle').textContent = data.title + ' - ' + data.category;
+            document.getElementById('modalCounter').textContent = (currentImageIndex + 1) + ' / ' + galleryData.length;
+        }
+        
+        function nextImage() {
+            currentImageIndex = (currentImageIndex + 1) % galleryData.length;
+            updateModalContent();
+        }
+        
+        function prevImage() {
+            currentImageIndex = (currentImageIndex - 1 + galleryData.length) % galleryData.length;
+            updateModalContent();
+        }
+        
+        document.addEventListener('keydown', function(e) {
+            const modal = document.getElementById('galleryModal');
+            if (modal.classList.contains('show')) {
+                if (e.key === 'ArrowLeft') {
+                    prevImage();
+                } else if (e.key === 'ArrowRight') {
+                    nextImage();
+                }
+            }
+        });
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.btn-filter');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            const noResults = document.getElementById('noResults');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    this.classList.add('active');
+                    
+                    const filter = this.getAttribute('data-filter');
+                    let visibleCount = 0;
+                    
+                    galleryItems.forEach(item => {
+                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                            item.style.display = 'block';
+                            visibleCount++;
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                    
+                    if (visibleCount === 0) {
+                        noResults.classList.remove('d-none');
+                    } else {
+                        noResults.classList.add('d-none');
+                    }
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>

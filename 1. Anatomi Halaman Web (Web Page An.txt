@@ -1,0 +1,91 @@
+1. Anatomi Halaman Web (Web Page Anatomy)
+Halaman web umumnya terdiri dari beberapa komponen utama:
+
+
+Containing Block (Container): Wadah utama yang menampung seluruh elemen halaman.
+
+
+Logo: Identitas visual dari situs web.
+
+
+Navigation: Menu untuk membantu pengguna berpindah antar halaman.
+
+
+Content: Area utama yang berisi informasi atau pesan yang ingin disampaikan.
+
+
+Footer: Bagian bawah halaman yang biasanya berisi informasi hak cipta atau kontak.
+
+
+Whitespace: Ruang kosong antar elemen yang penting untuk kenyamanan visual.
+
+2. Teori Tata Letak (Grid Theory)
+Dua prinsip utama dalam menyusun tata letak adalah:
+
+
+Divine Proportion (Golden Ratio): Rasio matematika (1,62) yang digunakan untuk menciptakan komposisi yang estetis dan seimbang secara alami.
+
+
+Rule of Thirds: Versi sederhana dari Golden Ratio, di mana area desain dibagi menjadi sembilan bagian yang sama besar untuk menentukan titik fokus yang ideal.
+
+3. Prinsip Desain
+
+Keseimbangan (Balance): Dapat bersifat simetris (seimbang di kedua sisi) atau asimetris (seimbang namun tidak identik).
+
+
+Kesatuan (Unity): Bagaimana elemen-elemen berinteraksi satu sama lain melalui kedekatan (proximity) dan pengulangan (repetition).
+
+
+Penekanan (Emphasis): Cara menarik perhatian audiens ke elemen tertentu melalui penempatan, isolasi, kontras, atau proporsi.
+
+4. Psikologi Warna
+Warna memiliki efek emosional dan perilaku yang berbeda pada pengguna:
+
+
+Merah: Merangsang adrenalin, meningkatkan metabolisme, dan melambangkan gairah atau drama.
+
+
+Oranye: Melambangkan kebahagiaan, kreativitas, dan dapat merangsang nafsu makan.
+
+
+Kuning: Warna yang sangat terlihat, melambangkan energi, kebahagiaan, namun juga digunakan sebagai tanda peringatan.
+
+
+Hijau: Berasosiasi dengan alam, pertumbuhan, dan kesegaran; warna ini lebih tenang di mata.
+
+
+Biru: Melambangkan kepercayaan, kecerdasan, dan stabilitas.
++1
+
+
+Ungu: Secara historis dikaitkan dengan kekuasaan dan royalti.
+
+
+Putih: Melambangkan kemurnian dan kesempurnaan.
+
+
+Hitam: Bisa berkonotasi negatif (kematian/kejahatan) atau positif (kekuatan/keanggunan) tergantung penggunaannya.
+
+5. Teori dan Skema Warna
+
+RGB vs CMYK: RGB digunakan untuk layar digital (aditif), sementara CMYK digunakan untuk media cetak (subtraktif).
+
+
+Skema Warna: Berbagai cara untuk menciptakan harmoni warna, seperti Monochromatic, Analogous, Complementary, Split Complementary, Triadic, dan Tetradic.
+
+6. Tekstur dan Elemen Grafis
+Tekstur memberikan tampilan atau nuansa fisik pada objek digital melalui penggunaan:
+
+
+Titik (Point): Unit terkecil (pixel) pada layar.
+
+
+Garis (Line): Kumpulan titik yang membentuk karakter tertentu (misal: garis bergelombang terasa rileks, garis tajam terasa berbahaya).
++1
+
+
+Bentuk (Shape): Diciptakan ketika garis bertemu ujungnya; web cenderung terbatas pada bentuk persegi panjang sehingga penggunaan gambar latar belakang atau sudut membulat diperlukan untuk kesan organik.
++1
+
+
+Pola (Pattern): Pengulangan elemen untuk mengisi tata letak.

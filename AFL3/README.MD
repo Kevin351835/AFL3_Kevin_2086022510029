@@ -1,0 +1,1 @@
+Project saya ini fungsi untuk menampilkan mengenai CV(Curiculum Vitae) yang dimiliki oleh seseorang.
