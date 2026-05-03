@@ -13,7 +13,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand fw-bold" href="index.html">
-                <span style="color: #6c63ff;">&lt;/&gt;</span> Kevin Stello
+                <span style="color: #6c63ff;"> Kevin Stello
             </a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -48,18 +48,8 @@
     <section class="page-header py-5">
         <div class="container text-center">
             <h1 class="display-4 fw-bold text-white mb-3">My <span style="color: #6c63ff;">Gallery</span></h1>
-            <p class="lead text-white-50">Kumpulan momen dan karya terbaik saya</p>
+            <p class="lead text-white-50">Kumpulan momen saya</p>
             <hr class="mx-auto" style="width: 100px; border: 2px solid #6c63ff; opacity: 1;">
-        </div>
-    </section>
-
-    <section class="filter-section py-4">
-        <div class="container">
-            <div class="d-flex justify-content-center flex-wrap gap-2">
-                <button class="btn btn-filter active" data-filter="all">Semua</button>
-                <button class="btn btn-filter" data-filter="web">Web Design</button>
-                <button class="btn btn-filter" data-filter="project">Project</button>
-            </div>
         </div>
     </section>
 
@@ -69,14 +59,13 @@
                 
                 <div class="col-lg-4 col-md-6 gallery-item" data-category="web">
                     <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="openGalleryModal(0)">
-                        <img src="https://i.ibb.co.com/s916VwHw/Screenshot-2026-04-30-045254.png" 
+                        <img src="https://i.ibb.co.com/20Q9wRvQ/Whats-App-Image-2026-05-04-at-02-48-23.jpg" 
                              alt="Web Design 1" 
                              class="gallery-img img-fluid">
                         <div class="gallery-overlay">
                             <div class="overlay-content">
                                 <i class="bi bi-zoom-in"></i>
-                                <h5>Website E-Commerce</h5>
-                                <p>Web Design</p>
+                                <h5>Momen di FDU</h5>
                             </div>
                         </div>
                     </div>
@@ -84,14 +73,13 @@
                 
                 <div class="col-lg-4 col-md-6 gallery-item" data-category="project">
                     <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="openGalleryModal(1)">
-                        <img src="https://i.ibb.co.com/zH0gxWnB/Screenshot-2026-04-30-042612.png" 
+                        <img src="https://i.ibb.co.com/JjFSPRyp/Whats-App-Image-2026-05-03-at-11-48-33-1.jpg" 
                              alt="Project 1" 
                              class="gallery-img img-fluid">
                         <div class="gallery-overlay">
                             <div class="overlay-content">
                                 <i class="bi bi-zoom-in"></i>
-                                <h5>Aplikasi Mobile</h5>
-                                <p>Project</p>
+                                <h5>Momen di FDU</h5>
                             </div>
                         </div>
                     </div>
@@ -99,49 +87,17 @@
                 
                 <div class="col-lg-4 col-md-6 gallery-item" data-category="web">
                     <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="openGalleryModal(3)">
-                        <img src="https://i.ibb.co.com/s916VwHw/Screenshot-2026-04-30-045254.png" 
+                        <img src="https://i.ibb.co.com/99MJLhCk/Whats-App-Image-2026-05-03-at-11-48-33.jpg" 
                              alt="Web Design 2" 
                              class="gallery-img img-fluid">
                         <div class="gallery-overlay">
                             <div class="overlay-content">
                                 <i class="bi bi-zoom-in"></i>
-                                <h5>Company Profile</h5>
-                                <p>Web Design</p>
+                                <h5>Momen di FDU</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-lg-4 col-md-6 gallery-item" data-category="project">
-                    <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="openGalleryModal(5)">
-                        <img src="https://i.ibb.co.com/zH0gxWnB/Screenshot-2026-04-30-042612.png" 
-                             alt="Project 2" 
-                             class="gallery-img img-fluid">
-                        <div class="gallery-overlay">
-                            <div class="overlay-content">
-                                <i class="bi bi-zoom-in"></i>
-                                <h5>Dashboard Admin</h5>
-                                <p>Project</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6 gallery-item" data-category="web">
-                    <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="openGalleryModal(8)">
-                        <img src="https://i.ibb.co.com/s916VwHw/Screenshot-2026-04-30-045254.png" 
-                             alt="Web Design 3" 
-                             class="gallery-img img-fluid">
-                        <div class="gallery-overlay">
-                            <div class="overlay-content">
-                                <i class="bi bi-zoom-in"></i>
-                                <h5>Landing Page</h5>
-                                <p>Web Design</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
             </div>
             
             <div id="noResults" class="text-center py-5 d-none">
@@ -190,25 +146,17 @@
     <script>
         const galleryData = [
             {
-                src: 'https://i.ibb.co.com/s916VwHw/Screenshot-2026-04-30-045254.png',
-                category: 'Web Design',
+                src: 'https://i.ibb.co.com/20Q9wRvQ/Whats-App-Image-2026-05-04-at-02-48-23.jpg',
+                category: 'Semua',
             },
             {
-                src: 'https://i.ibb.co.com/s916VwHw/Screenshot-2026-04-30-045254.png',
-                category: 'Project',
+                src: 'https://i.ibb.co.com/JjFSPRyp/Whats-App-Image-2026-05-03-at-11-48-33-1.jpg',
+                category: 'Semua',
             },
             {
-                src: 'https://i.ibb.co.com/zH0gxWnB/Screenshot-2026-04-30-042612.png',
-                category: 'Web Design',
+                src: 'https://i.ibb.co.com/99MJLhCk/Whats-App-Image-2026-05-03-at-11-48-33.jpg',
+                category: 'Semua',
             },
-            {
-                src: 'https://i.ibb.co.com/s916VwHw/Screenshot-2026-04-30-045254.png',
-                category: 'Project',
-            },
-            {
-                src: 'https://i.ibb.co.com/zH0gxWnB/Screenshot-2026-04-30-042612.png',
-                category: 'project',
-            }
         ];
         
         let currentImageIndex = 0;
